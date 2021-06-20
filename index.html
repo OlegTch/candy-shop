@@ -1,1 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy-shop</title>
 
+    <link href="./scss/fonts/demo.html" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+                integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+                crossorigin="anonymous" />
+        <!-- <link href="./scss/main.scss" rel="stylesheet"> -->
+        <link href="./css/main.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="haeder-container">
+            <div class="hamburger-menu">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox" class="hamburger-menu__button">
+                    <span></span>
+                </label>
+                <div class="item-mobile">
+                    <a href="" class="logo logo-mobile" >
+                        <img class="head" src="./images/logo/logo-head.svg" alt="head" width="37" height="37">
+                        <img class="logo-text" src="./images/logo/logo-text.svg" alt="logo-text" width="55" height="26">
+                        <img class="logo-batterfly" src="./images/logo/logo-batterfly.svg" alt="logo-batterfly" width="8" height="5">
+                    </a>
+                </div>
+                    <a href="" class="cart-link cart-link-modile">
+                        <img src="./images/cart.svg" alt="cart">
+                    </a> 
+            
+            <div class="menu-links">
+                <nav class="navigation-links">           
+                    <ul class="nav-list">
+                        <li class="nav-list-item"><a href="" class="nav-list-link">Готовые наборы</a></li>
+                        <li class="nav-list-item"><a href="" class="nav-list-link">Собрать свой набор </a></li>
+                        <li class="nav-list-item"><a href="" class="nav-list-link">Акции <span class="nav-list-item-span">%</span></a></li>
+                        <li class="item-desktop is-hidden">
+                            <a href="" class="logo logo-desktop">
+                                <img class="head" src="./images/logo/logo-head.svg" alt="head" width="37" height="37">
+                                <img class="logo-text" src="./images/logo/logo-text.svg" alt="logo-text" width="55" height="26">
+                                <img class="logo-batterfly" src="./images/logo/logo-batterfly.svg" alt="logo-batterfly" width="8" height="5">
+                            </a>
+                        </li>
+                        <li class="nav-list-item"><a href="" class="nav-list-link">Каталог десертов</a></li>
+                        <li class="nav-list-item"><a href="" class="nav-list-link">Корпоративные подарки</a></li>
+                        <li class="nav-list-item"><a href="" class="nav-list-link">Оптовикам</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="navigation-service">
+                    <ul class="nav-service">
+                        <li class="nav-service-item"><a class="nav-service-link" href="">Свадебные предложения</a></li>
+                        <li class="nav-service-item"><a class="nav-service-link" href="">Наборы с печатью</a></li>
+                        <li class="nav-service-item"><a class="nav-service-link" href="">Гарантии вкуса и свежести</a></li>
+                        <li class="nav-service-item"><a class="nav-service-link" href="">Доставка и оплата</a></li>
+                        <li class="nav-service-item"><a class="nav-service-link" href="">Контакты</a></li>
+                    </ul>
+                    <ul class="nav-contacts">
+                        <li class="nav-contacts-item nav-contacts-item-tell">
+                            <a href="tel:88123098288" class="nav-contact-link">
+                                <span class="nav-contact-link-thumb">
+                                <img class="nav-tell" src="./images/tell.svg" alt="tell"/> 
+                                <span class="nav-tell-text">8 812 309-82-88</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="cart-item cart-item-desktop is-hidden">
+                            <a href="" class="cart-link">
+                                <img src="./images/cart.svg" alt="cart">
+                            </a>
+                            <p>В корзине (4 товара)</p>
+                        </li>
+                        <li class="nav-contacts-item">
+                            <ul class="social-list">
+                                <li class="social-item">
+                                    <a class="social-link" href="">
+                                    <!-- <svg class="social-img"> -->
+                                        <img class="social-img" src="./images/instagram.svg" alt="instagram">
+                                    <!-- <use href="./images/instagram.svg"></use>                                                     
+                                    </svg> -->
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a class="social-link" href="">
+                                    <img class="social-img" src="./images/facebook.svg" alt="facebook">
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a class="social-link" href="">
+                                    <img class="social-img" src="./images/vk.svg" alt="vk">
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>  
+                </nav>
+            </div>
+
+            </div>            
+        </div>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer class="footer">
+
+    </footer>
+    
+</body>
+</html>
+
+
+
+<!-- 
+<picture>
+    <source srcset="./images/logo/logo-head.png .jpg 1x, 
+                                            ./images/team-member/team-1-desktop@2x.jpg 2x"
+        media="(min-width: 1200px)" />
+    <source srcset="./images/team-member/team-1-tablet.jpg 1x, 
+                                                                        ./images/team-member/team-1-tablet@2x.jpg 2x"
+        media="(min-width: 320px)" />
+    <img class="image team__image" srcset="./images/team-member/team-1-mobile.jpg 1x, 
+                                                                    ./images/team-member/team-1-mobile@2x.jpg 2x"
+        src="./images/team-member/team-1-mobile.jpg" alt="Игорь Демьяненко" />
+</picture> -->
